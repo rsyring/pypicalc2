@@ -1,5 +1,7 @@
 arrow
+flake8
 Flask-WebTest
 psycopg2
 pytest
+pytest-cov
 sqlalchemy_utils

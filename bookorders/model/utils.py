@@ -54,7 +54,6 @@ def _sqlite_utcnow(element, compiler, **kw):
     return "CURRENT_TIMESTAMP"
 
 
-
 class DefaultColsMixin(object):
     id = sa.Column(sa.Integer, primary_key=True)
     created_utc = sa.Column(ArrowType, nullable=False, default=arrow.now, server_default=utcnow())

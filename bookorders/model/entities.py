@@ -1,6 +1,5 @@
 from keg.db import db
 import sqlalchemy as sa
-import sqlalchemy.orm as saorm
 
 from .utils import DefaultColsMixin, MethodsMixin
 
