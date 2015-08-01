@@ -9,7 +9,7 @@ class DefaultProfile(object):
     # It's tempting to turn this off to avoid the warning, but if you are storing passwords
     # in your settings, leave this enabled and setup a keyring.  See the app's keyring related
     # commands for help.
-    KEG_KEYRING_ENABLE = True
+    KEG_KEYRING_ENABLE = False
 
 
 class TestProfile(object):

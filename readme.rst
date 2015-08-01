@@ -29,7 +29,7 @@ Local Configuration Changes
 ===========================
 
 In order to set configuration for your local environment, create
-    `<project root>/bookorders-config.py` as below, changing db creds as needed::
+`<project root>/bookorders-config.py` as below, changing db creds as needed::
 
     DEFAULT_PROFILE = 'DevProfile'
 
