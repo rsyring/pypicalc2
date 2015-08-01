@@ -3,6 +3,13 @@
 Book Orders Demo Application
 ######################################
 
+.. image:: https://travis-ci.org/rsyring/bookorders.svg?branch=master
+    :target: https://travis-ci.org/rsyring/bookorders
+
+.. image:: https://coveralls.io/repos/rsyring/bookorders/badge.svg?branch=master
+    :target: https://coveralls.io/r/rsyring/bookorders?branch=master
+
+
 Created as a companion application for DB Testing prsentation at PyOhio 2015.
 
 Environment Assumptions
