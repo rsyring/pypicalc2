@@ -1,0 +1,9 @@
+*.komodo*
+*.pyc
+*.egg-info
+bookorders-config.py
+*.coverage
+.tox
+/coverage.xml
+.pytests.xml
+
