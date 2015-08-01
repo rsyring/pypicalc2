@@ -15,3 +15,7 @@ class DefaultProfile(object):
 class TestProfile(object):
     KEG_KEYRING_ENABLE = False
     SQLALCHEMY_DATABASE_URI = 'postgresql://test:test@localhost/test'
+
+
+class ShippableProfile(TestProfile):
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres@localhost/testdb'
