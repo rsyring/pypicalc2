@@ -10,12 +10,12 @@ Book Orders Demo Application
     :target: https://coveralls.io/r/rsyring/bookorders?branch=master
 
 
-Created as a companion application for DB Testing prsentation at PyOhio 2015.
+Created as a companion application for DB Testing presentation at PyOhio 2015.
 
 Environment Assumptions
 =======================
 
-- You have a PostgreSQL server available, preferrably with user/password/db setup according to
+- You have a PostgreSQL server available, preferably with user/password/db setup according to
   `bookorders.conf:TestProfile`
 - You have a recent version of Tox installed at the system or user level.
 
@@ -47,7 +47,7 @@ In order to set configuration for your local environment, create
         SQLALCHEMY_DATABASE_URI = 'postgresql://test:test@localhost/test'
 
 
-Python 3 Gotchyas
+Python 3 Gotchas
 =================
 
 Since this is a Python 3 project, take note of the following:
