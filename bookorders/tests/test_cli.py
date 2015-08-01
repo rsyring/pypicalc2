@@ -12,4 +12,3 @@ class TestCLI(CLIBase):
     def test_hello(self):
         result = self.invoke(cmd_name='hello')
         assert 'Hello World\n' == result.output
-
