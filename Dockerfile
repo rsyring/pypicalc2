@@ -6,7 +6,7 @@ VOLUME /opt/app/artifacts;
 WORKDIR /opt/app/src
 
 CMD service postgresql start \
-    && psql -U postgres -c 'create database fistest' \
+    && psql -U postgres -c 'create database testdb' \
     && pwd \
     && ls -la \
     && pip install --use-wheel --no-index --find-links=requirements/wheelhouse tox \
