@@ -1,9 +1,9 @@
-from bookorders.model.utils import (
+from pypicalc.model.utils import (
     ColumnCheck,
     EntityBase
 )
 
-import bookorders.model.entities as ents
+import pypicalc.model.entities as ents
 
 
 class TestPublisher(EntityBase):

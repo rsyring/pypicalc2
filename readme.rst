@@ -1,6 +1,6 @@
 .. default-role:: code
 
-Book Orders Demo Application
+PyPi Calc 2
 ######################################
 
 .. image:: https://api.shippable.com/projects/55bd3906edd7f2c052908278/badge/master
@@ -10,7 +10,10 @@ Book Orders Demo Application
     :target: https://coveralls.io/r/rsyring/bookorders?branch=master
 
 
-Created as a companion application for DB Testing presentation at PyOhio 2015.
+Created as a companion application for `Testing Application Boundaries`__ presentation at
+Code PaLOUsa 2016.
+
+.. __: http://www.codepalousa.com/Sessions/679
 
 Environment Assumptions
 =======================
@@ -40,7 +43,7 @@ In order to set configuration for your local environment, create
 
         KEG_KEYRING_ENABLE = False
 
-        SQLALCHEMY_DATABASE_URI = 'postgresql://bookorders:bookorders@localhost/bookorders'
+        SQLALCHEMY_DATABASE_URI = 'postgresql://pypicalc2:pypicalc2@localhost/pypicalc2'
 
 
     class TestProfile(object):

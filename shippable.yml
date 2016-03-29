@@ -1,7 +1,0 @@
-env:
-  - TOXENV=postgres-prep,py34,shippable-results,coveralls
-  - TOXENV=flake8
-install:
-  - pip install --use-wheel --no-index --find-links=requirements/wheelhouse tox
-script:
-  - tox

@@ -3,10 +3,10 @@ from __future__ import unicode_literals
 
 from keg import Keg
 
-from bookorders.views import public
+from pypicalc.views import public
 
 
 class BookOrders(Keg):
-    import_name = 'bookorders'
+    import_name = 'pypicalc'
     use_blueprints = [public]
     db_enabled = True

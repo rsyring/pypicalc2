@@ -4,7 +4,7 @@ from __future__ import print_function
 
 import click
 
-from bookorders.app import BookOrders
+from pypicalc.app import BookOrders
 
 
 @BookOrders.command()

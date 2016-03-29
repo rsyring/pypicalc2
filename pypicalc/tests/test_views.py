@@ -17,8 +17,8 @@ class TestPublic(ViewBase):
 
     def test_home(self):
         resp = self.ta.get('/')
-        assert resp.text == 'Hello World from BookOrders!'
+        assert resp.text == 'Hello World from PyPi Calc 2!'
 
     def test_ping(self):
         resp = self.ta.get('/ping')
-        assert resp.text == 'bookorders ok'
+        assert resp.text == 'pypicalc ok'

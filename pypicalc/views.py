@@ -11,4 +11,4 @@ log = logging.getLogger(__name__)
 
 @public.route('/')
 def home():
-    return 'Hello World from BookOrders!'
+    return 'Hello World from PyPi Calc 2!'
