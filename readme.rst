@@ -6,8 +6,8 @@ PyPi Calc 2
 .. image:: https://circleci.com/gh/rsyring/pypicalc2.svg?&style=shield
     :target: https://circleci.com/gh/rsyring/pypicalc2
 
-.. image:: https://coveralls.io/repos/rsyring/bookorders/badge.svg?branch=master
-    :target: https://coveralls.io/r/rsyring/bookorders?branch=master
+.. image:: https://codecov.io/github/rsyring/pypicalc2/coverage.svg?branch=master
+    :target: https://codecov.io/github/rsyring/pypicalc2?branch=master
 
 
 Created as a companion application for `Testing Application Boundaries`__ presentation at
