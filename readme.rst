@@ -3,8 +3,8 @@
 PyPi Calc 2
 ######################################
 
-.. image:: https://api.shippable.com/projects/55bd3906edd7f2c052908278/badge/master
-    :target: https://app.shippable.com/projects/55bd3906edd7f2c052908278
+.. image:: https://circleci.com/gh/rsyring/pypicalc2.svg?&style=shield
+    :target: https://circleci.com/gh/rsyring/pypicalc2
 
 .. image:: https://coveralls.io/repos/rsyring/bookorders/badge.svg?branch=master
     :target: https://coveralls.io/r/rsyring/bookorders?branch=master
