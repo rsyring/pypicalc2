@@ -1,2 +1,2 @@
-coveralls
+codecov
 tox
