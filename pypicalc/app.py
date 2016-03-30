@@ -6,7 +6,7 @@ from keg import Keg
 from pypicalc.views import public
 
 
-class BookOrders(Keg):
+class PyPICalc(Keg):
     import_name = 'pypicalc'
     use_blueprints = [public]
     db_enabled = True

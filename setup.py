@@ -36,6 +36,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        bookorders = pypicalc.cli:cli_entry
+        pypicalc = pypicalc.cli:cli_entry
     ''',
 )
