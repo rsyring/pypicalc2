@@ -131,8 +131,8 @@ class MethodsMixin(object):
         for column in insp.columns:
             # skip fields already in kwargs, foreign key references, and any
             #   field having a default or server_default configured
-            if (column.key in kwargs or column.foreign_keys or column.server_default
-                    or column.default or column.primary_key):
+            if (column.key in kwargs or column.foreign_keys or column.server_default or
+                    column.default or column.primary_key):
                 continue
 
             # If the column is being used for polymorphic inheritance identification, then don't
