@@ -1,6 +1,6 @@
 .. default-role:: code
 
-PyPi Calc 2
+PyPI Calc 2
 ######################################
 
 .. image:: https://circleci.com/gh/rsyring/pypicalc2.svg?&style=shield
@@ -18,6 +18,7 @@ Code PaLOUsa 2016.
 Environment Assumptions
 =======================
 
+- Python 3.4.x
 - You have a PostgreSQL server available, preferably with user/password/db setup according to
   `bookorders.conf:TestProfile`
 - You have a recent version of Tox installed at the system or user level.

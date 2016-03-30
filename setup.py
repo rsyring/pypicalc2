@@ -14,7 +14,7 @@ with open(version_fpath) as fo:
 
 
 setup(
-    name='PyPi Calc 2',
+    name='PyPI Calc 2',
     version=version_globals['VERSION'],
     description='<short description>',
     author='Randy Syring',
