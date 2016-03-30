@@ -1,7 +1,11 @@
 arrow
 flake8
+Flask-Mail
 Flask-WebTest
+mock
 psycopg2
 pytest
 pytest-cov
+requests
+requests_mock
 sqlalchemy_utils
