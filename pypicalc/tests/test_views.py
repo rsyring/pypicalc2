@@ -2,7 +2,7 @@ from __future__ import absolute_import
 from __future__ import unicode_literals
 
 import flask
-from flask.ext.webtest import TestApp
+import flask_webtest
 
 
 class ViewBase(object):
@@ -10,7 +10,7 @@ class ViewBase(object):
     @classmethod
     def setup_class(cls):
         # anonymous user
-        cls.ta = TestApp(flask.current_app)
+        cls.ta = flask_webtest.TestApp(flask.current_app)
 
 
 class TestPublic(ViewBase):
