@@ -20,5 +20,5 @@ class DefaultProfile(object):
 class TestProfile(object):
     KEG_KEYRING_ENABLE = False
     # Default creds for CI testing.
-    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres@database/testdb'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://ubuntu:@database/circle_test'
     MAIL_DEFAULT_SENDER = 'fakesender@example.com'
