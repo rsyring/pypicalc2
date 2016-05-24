@@ -13,10 +13,7 @@ class MockMailService(IMailService):
     sent_messages = []
 
     def send(self, msg):
-        if current_app.testing:
-            self.sent_messages.append(msg)
-        else:
-            PyPICalc.mail.send(msg)
+        self.sent_messages.append(msg)
 
 
 class MailService(IMailService):
