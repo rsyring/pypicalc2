@@ -23,6 +23,9 @@ if [ -z "${CIRCLECI}" ]; then
 
     set -x
     git clone $local_src_dpath/ $tmp_src_dpath
+
+    DATABASE_HOST=$(ip -4 addr show docker0 | grep -Po 'inet \K[\d.]+')
+    DOCKER_FLAGS="--add-host=database:$DATABASE_HOST"
 else
     SRC_DPATH="/home/ubuntu/$CIRCLE_PROJECT_REPONAME"
     ARTIFACTS_DPATH=$CIRCLE_ARTIFACTS
