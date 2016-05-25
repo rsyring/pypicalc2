@@ -19,6 +19,12 @@ class TestPublic(ViewBase):
         resp = self.ta.get('/')
         assert resp.text == 'Hello World from PyPI Calc 2!'
 
+    def test_name(self):
+        resp = self.ta.get('/Randy')
+        assert resp.text == 'Hello Randy!'
+        resp = self.ta.get('/Nate')
+        assert resp.text == 'Hello Nate!'
+
     def test_ping(self):
         resp = self.ta.get('/ping')
         assert resp.text == 'pypicalc ok'

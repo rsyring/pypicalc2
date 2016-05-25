@@ -10,5 +10,6 @@ log = logging.getLogger(__name__)
 
 
 @public.route('/')
-def home():
-    return 'Hello World from PyPI Calc 2!'
+@public.route('/<name>')
+def home(name='World from PyPI Calc 2'):
+    return 'Hello {}!'.format(name)
