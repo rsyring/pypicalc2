@@ -11,5 +11,9 @@ log = logging.getLogger(__name__)
 
 @public.route('/')
 @public.route('/<name>')
-def home(name='World from PyPI Calc 2'):
-    return 'Hello {}!'.format(name)
+def home(name=None):
+    if name is None:
+        say_hello_to = 'World from PyPI Calc 2'
+    else:
+        say_hello_to = name
+    return 'Hello {}!'.format(say_hello_to)
